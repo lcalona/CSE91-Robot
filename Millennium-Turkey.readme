@@ -1,0 +1,36 @@
+README for gadget: Millennium Turkey
+
+Components:
+	brain:	Adafruit-Pro-Trinket-5V-battery-powered-6V
+	battery:	battery-4xAA
+	drive:	dual-motor-kit-narrow-fast
+	Servo:	servo-normal-side
+	display:	Adafruit-8x8-1.2in-led-array-white
+	caster:	ball-caster-0.75in
+	distanceSensor:	analog_distance_sensor
+	buzzer:	piezo-buzzer-variable
+
+Connections:
+	[brain.A4_0_brain, display.SDA_4_display]
+	[brain.A5_0_brain, display.SCL_4_display]
+	(brain.D3_0_brain, Servo.DATA_3_Servo)
+	(brain.D4_0_brain, buzzer.1_7_buzzer)
+	(brain.D5_0_brain, drive.PWMA_2_drive)
+	(brain.D6_0_brain, drive.PWMB_2_drive)
+	(brain.A0_0_brain, distanceSensor.A_6_distanceSensor)
+	(brain.D8_0_brain, drive.STBY_2_drive)
+	(brain.D9_0_brain, drive.AIN1_2_drive)
+	(brain.D10_0_brain, drive.AIN2_2_drive)
+	(brain.D11_0_brain, drive.BIN1_2_drive)
+	(brain.D12_0_brain, drive.BIN2_2_drive)
+	[brain.+5V_0_brain, drive.VCC_2_drive, distanceSensor.VCC_6_distanceSensor, display.VDD_4_display]
+	[battery.POS_1_battery, Servo.VCC_3_Servo, brain.VBAT_0_brain, drive.VM_2_drive]
+	[brain.GND_0_brain, brain.GND1_0_brain, display.GND_4_display, distanceSensor.GND_6_distanceSensor, battery.NEG_1_battery, brain.GND2_0_brain, buzzer.2_7_buzzer, Servo.GND_3_Servo, drive.GND_2_drive]
+
+Power plan:
+	brain.+5V_out provides power to drive.VCC
+	brain.+5V_out provides power to distanceSensor.CONTROL
+	brain.+5V_out provides power to display.VDD
+	battery.+6V_out provides power to Servo.VCC
+	battery.+6V_out provides power to brain.+VBat
+	battery.+6V_out provides power to drive.VM

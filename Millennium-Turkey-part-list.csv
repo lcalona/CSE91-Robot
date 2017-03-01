@@ -1,0 +1,22 @@
+Part Name,Price pack,Parts per pack,Count Required,Count Optional,Packs Required Only,Packs Required+Optional,Total Price Required Only,Total Price Required+Optional,Supplier,Part Number,keyname,URL
+"<p>A geared motor suitable for driving the wheels of a robot.</p>
+    ",$None,1,2,0,2,2,$0,$0,,,Solarbotics-gm2-assembly,MISSING
+SparkFun Motor Driver - Dual TB6612FNG (1A),$None,1,1,0,1,1,$0,$0,,,Sparkfun-9457-assembly,MISSING
+"Ball Caster - 3/4"" Metal Ball",$4.95,1,1,0,1,1,$4.95,$4.95,Adafruit,1200,Adafruit-1200,http://adafru.it/1200
+Piezo Buzzer - PS1240,$1.5,1,1,0,1,1,$1.5,$1.5,Adafruit,160,Adafruit-160,http://adafru.it/160
+"Small 1.2"" 8x8 Ultra Bright White LED Matrix + Backpack",$13.5,1,1,0,1,1,$13.5,$13.5,Adafruit,1614,Adafruit-1614,http://adafru.it/1614
+Adafruit Pro Trinket - 5V 16MHz,$9.95,1,1,0,1,1,$9.95,$9.95,Adafruit,2000,Adafruit-2000,http://adafru.it/2000
+CONN HEADER VERT SGL 3POS GOLD,$0.26,1,1,0,1,1,$0.26,$0.26,Digikey,3M9448-ND,Digikey-3M9448-ND,http://www.digikey.com/product-search/en?keywords=3M9448-ND
+DIODE SCHOTTKY 20V 1A DO41,$0.43,1,1,0,1,1,$0.43,$0.43,Digikey,497-4547-1-ND,Digikey-497-4547-1-ND,http://www.digikey.com/product-search/en?keywords=497-4547-1-ND
+BATTERY ALKALINE 9V,$2.38,1,1,0,1,1,$2.38,$2.38,Digikey,N145-ND,Digikey-N145-ND,http://www.digikey.com/product-search/en?keywords=N145-ND
+CAP ALUM 100UF 20% 25V RADIAL,$0.25,1,1,0,1,1,$0.25,$0.25,Digikey,P5152-ND,Digikey-P5152-ND,http://www.digikey.com/product-search/en?keywords=P5152-ND
+CAP ALUM 1000UF 20% 25V RADIAL,$0.68,1,1,0,1,1,$0.68,$0.68,Digikey,P5156-ND,Digikey-P5156-ND,http://www.digikey.com/product-search/en?keywords=P5156-ND
+CAP ALUM 3300UF 20% 25V RADIAL,$1.13,1,1,0,1,1,$1.13,$1.13,Digikey,P5158-ND,Digikey-P5158-ND,http://www.digikey.com/product-search/en?keywords=P5158-ND
+Sharp GP2Y0A51SK0F Analog Distance Sensor 2-15cm,$7.95,1,1,0,1,1,$7.95,$7.95,Pololu,2450,Pololu-2450,http://www.pololu.com/product/2450
+HXT900 9g / 1.6kg / .12sec Micro Servo,$5.85,1,1,0,1,1,$5.85,$5.85,SolarBotics,25500,SolarBotics-25500,https://solarbotics.com/product/25500
+GM Series Plastic Wheels,$3.25,1,2,0,2,2,$6.5,$6.5,Solarbotics,gmpw,Solarbotics-gmpw,https://solarbotics.com/product/gmpw
+SparkFun USB Mini-B Cable - 6 Foot,$3.95,1,1,0,1,1,$3.95,$3.95,sparkfun,11301,sparkfun-11301,http://www.sparkfun.com/products/11301
+SparkFun FTDI Basic Breakout - 5V,$14.95,1,1,0,1,1,$14.95,$14.95,sparkfun,9716,sparkfun-9716,http://www.sparkfun.com/products/9716
+""
+Total Cost (required only): ,$74.23
+Total Cost (everything): ,$74.23
